@@ -10,11 +10,6 @@ export default {
     msg: {
       default: '下载'
     }
-  },
-  methods: { // 绑定事件的关键代码
-    btnClickEvent: function () {
-      alert(this.msg)
-    }
   }
 }
 </script>
