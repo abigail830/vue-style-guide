@@ -2,7 +2,10 @@
   <div id="pageQuiButton">
     <bootstrapNav/>
     <div class="btn-block">
-      <h4>Here is the BootstrapVue pre-defined Button</h4>
+      <div>
+        <h4>Here is the BootstrapVue pre-defined Button</h4>
+        <a href='https://bootstrap-vue.js.org/docs/components/button'>Refer: https://bootstrap-vue.js.org/docs/components/button</a>
+      </div>
       <div class='btn-group'>
         <b-button variant="primary" class='b-button'>Primary Button</b-button>
         <b-button variant="danger" class='b-button'>Danger Button</b-button>
@@ -12,7 +15,10 @@
       </div>
     </div>
     <div class="btn-block">
-      <h4>Here is the Bootstrp pre-defined Button</h4>
+      <div>
+        <h4>Here is the Bootstrp pre-defined Button</h4>
+        <a href='https://getbootstrap.com/docs/4.0/components/buttons/'>Refer: https://getbootstrap.com/docs/4.0/components/buttons/</a>
+      </div>
       <div class="btn-group">
         <button type="button" class="b-button btn btn-primary">Primary</button>
         <button type="button" class="b-button btn btn-secondary">Secondary</button>
@@ -49,7 +55,7 @@
     <div class="btn-block">
       <h4>Here is the Self pre-defined Button</h4>
       <div class='btn-group'>
-        <qui-btn msg="Qui-Btn" class="small"></qui-btn>
+        <qui-btn msg="Qui-Btn which can self define content" class="small"></qui-btn>
       </div>
     </div>
   </div>
@@ -73,8 +79,7 @@ export default {
 </script>
 <style>
 .btn-block{
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 40px 0px;
 
 }
 .b-button{
