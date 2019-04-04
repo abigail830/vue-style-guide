@@ -14,6 +14,7 @@
         <b-button variant="outline-primary" class='b-button'>Outline-Primary Button</b-button>
       </div>
     </div>
+    <div class='slot'><hr class="my-4"></div>
     <div class="btn-block">
       <div>
         <h4>Here is the Bootstrp pre-defined Button</h4>
@@ -52,6 +53,7 @@
         <input class="b-button btn btn-primary" type="reset" value="Reset">
       </div>
     </div>
+    <div class='slot'><hr class="my-4"></div>
     <div class="btn-block">
       <h4>Here is the Self pre-defined Button</h4>
       <div class='btn-group'>
@@ -83,9 +85,13 @@ export default {
 
 }
 .b-button{
-  margin: 0px 5px;
+  margin: 0px 6px;
 }
 .btn-group{
-  margin-top: 15px;
+  margin-top: 10px;
+}
+.slot{
+  width: 70%;
+  margin: 0 auto;
 }
 </style>
