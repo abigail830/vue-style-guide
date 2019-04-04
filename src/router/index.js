@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/pages/Index'
-import PageQuiButton from '@/pages/PageQuiButton'
+import PageButton from '@/pages/PageButton'
 import PageColor from '@/pages/PageColor'
 
 Vue.use(Router)
@@ -15,8 +15,8 @@ export default new Router({
     },
     {
       path: '/btn',
-      name: 'PageQuiButton',
-      component: PageQuiButton
+      name: 'PageButton',
+      component: PageButton
     },
     {
       path: '/color',
