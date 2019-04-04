@@ -57,7 +57,7 @@
     <div class="btn-block">
       <h4>Here is the Self pre-defined Button</h4>
       <div class='btn-group'>
-        <qui-btn msg="Qui-Btn which can self define content" class="small" v-on:btnClickEvent="btnClickEvent" ></qui-btn>
+        <qui-btn msg="Qui-Btn which can self define content" class="small" v-on:btnClickEvent="btnClickEvent1" ></qui-btn>
       </div>
     </div>
   </div>
@@ -73,8 +73,8 @@ export default {
     'qui-btn': quiBtn
   },
   methods: { // 绑定事件的关键代码
-    btnClickEvent: function () {
-      alert('你点击了组件的click:btnClickEvent')
+    btnClickEvent1: function () {
+      alert('你点击了组件的click:btnClickEvent1')
     }
   }
 }
