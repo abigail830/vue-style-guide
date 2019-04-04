@@ -17,6 +17,13 @@ export default {
     msg: {
       default: '下载'
     }
+  },
+  //  Method 1 to assign general method inside component
+  methods: {
+    btnClickEvent: function () {
+      alert('先弹出默认的文案')
+      this.$emit('btnClickEvent')
+    }
   }
 }
 </script>
